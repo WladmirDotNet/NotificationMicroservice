@@ -1,2 +1,2 @@
 # NotificationMicroservice
-Repositório de microserviço voltado para notificações
+Microserviço voltado para notificações
