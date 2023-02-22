@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="MassTransit" Version="8.0.12" />
+	  <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
+	  <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.12" />
+	  <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="7.0.2" />
+	  <PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ManagerCore\BLLCore.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="UtilCore">
+	    <HintPath>..\..\..\InfraestruturaGlobal\UtilCore\bin\Release\net7.0\UtilCore.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
