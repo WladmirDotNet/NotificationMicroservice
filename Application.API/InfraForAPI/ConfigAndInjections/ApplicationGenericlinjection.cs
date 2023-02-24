@@ -41,12 +41,9 @@ namespace InfraForAPI.ConfigAndInjections
 
             #region Arquivo de configuração da aplicação
 
-            builder.Configuration.AddJsonFile("AppConfig/appsettings.json", false, true);
+            builder.Configuration.AddJsonFile("AppConfig/notificationmicroservice.appsettings.json", false, true);
 
             #endregion Arquivo de configuração da aplicação
-
-            //Não será utiliado pois serve para compatibilizar com o IIS
-            //builder.Services.Configure<IISOptions>(o => { o.ForwardClientCertificate = false; });
 
             builder.Services.Configure<ForwardedHeadersOptions>(options =>
             {

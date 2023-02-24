@@ -19,6 +19,7 @@ namespace InfraForAPI.ConfigAndInjections
             var builder = Init(args, assembblyName);
             if (isMassTransitProducer)
                 builder.Services.AddMassTransitRabbitMqProducer(builder.Configuration);
+
             return builder;
 
         }

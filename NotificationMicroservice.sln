@@ -29,6 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfraForAPI", "Application.
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1824E16E-0DC4-4E39-8CCF-612C5BF3F14B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherProjectData", "OtherProjectData", "{B1E0908F-0DA4-4165-B99E-31FB28F3113A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Dados\notificationmicroservice.appsettings.json = ..\..\..\..\..\Dados\notificationmicroservice.appsettings.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +79,7 @@ Global
 		{0C6866A7-ADCB-4E40-9311-7977C301A147} = {3DFD96E2-3ADE-40A7-A87C-5E174C07C8D2}
 		{EE0C9909-3A25-418E-8570-28A88082A1E0} = {6AF6CCC0-A265-49A7-B256-882A67DB90B7}
 		{113DA914-BA47-477B-A5C4-C05BCA1018DA} = {EE0C9909-3A25-418E-8570-28A88082A1E0}
+		{B1E0908F-0DA4-4165-B99E-31FB28F3113A} = {02D81851-50CB-40E5-AAE2-7C2D15844CA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {328B70DC-F2DD-4017-B826-71DABA30F1E9}
